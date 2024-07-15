@@ -54,3 +54,7 @@ import { allconfig } from '../config'
   
     return site_base_url;
   }
+
+  export const convertIDMongoIDToID = () => {
+    
+  }

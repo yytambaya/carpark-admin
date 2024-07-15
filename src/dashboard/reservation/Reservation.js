@@ -275,7 +275,12 @@ const Reservation = ({setPage, setLastPage, lastPage, reservation}) => {
             </div>
             
             <div className='flex space-x-36'>
+            
               <div className=''>  
+              <div class="mb-6">
+                        <label for="name" class="block mb-2 text-xl text-black">ID</label>
+                        <p className=' text-slate-500 font-bold'>{reservation?._id?.substring(reservation?._id?.length - 6)}</p>
+                    </div>
                     <div class="mb-6">
                         <label for="name" class="block mb-2 text-xl text-black">Spot</label>
                         <p className=' text-slate-500'>{reservation?.name}</p>
